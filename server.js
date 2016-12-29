@@ -9,7 +9,7 @@ http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end('Hello World\n');
 
-}).listen(1337, '127.0.0.1');
+}).listen(3000, '127.0.0.1');
 // include the express module
 var express = require('express');
 //cant get this line to work
@@ -18,7 +18,7 @@ var app =express();
 app.get('/', function(req, res){
     res.send('Hello World');
 });
-app.listen(1337,listening);
+app.listen(3000,listening);
 function listening(){
 	console.log("listening");
 }
