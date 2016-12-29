@@ -1,26 +1,19 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.2.5",
-  "description": "A sample Node.js app using Express 4",
-  "engines": {
-    "node": "6.9.2"
-  },
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "ejs": "2.4.1",
-    "express": "4.13.3"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Corneliuscob/myapp"
+    "url": "git+https://github.com/Corneliuscob/myapp.git"
   },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "license": "MIT"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Corneliuscob/myapp/issues"
+  },
+  "homepage": "https://github.com/Corneliuscob/myapp#readme"
 }
